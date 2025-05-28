@@ -1,0 +1,11 @@
+---
+import ScrollBox from "../components/ScrollBox";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <h1 style="text-align: center;">Scroll para ver la animación</h1>
+  <ScrollBox client:only="preact" />
+  <ScrollBox client:only="preact" />
+  <ScrollBox client:only="preact" />
+</Layout>
